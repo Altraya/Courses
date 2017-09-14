@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "dragon";
+    src : url("../polices/dragonslapper.ttf");
+}
+
+html {
+	color: white;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background: url("../img/backGround_lavaFlow.jpg") no-repeat fixed center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#logo {
+	width: 30% ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3 {
+	/*color: #cbcbcb;*/
+	color: black;
+}
+
+
+input, h1, h2, h3, h4, .button, .dragon {
+    font-family: "dragon";
+}
+
+h1
+{
+	font-size: 45px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+option,label {
+    color: #cbcbcb;
+}
+
+select,select:hover {
+    background-color: #3a3434;
+}
+
+.description{
+	min-height: 90%;
+	background-color: white;
+	margin-top: 2%;
+}
+
+.space-top
+{
+    margin-top: 2% !important;
+}
+
+.white_bg
+{
+	background-color: white;
+}
+
+.black_bg
+{
+	background-color: #181616;
+}
+
+.footer{
+	color : #eaeaea;
+	font-size: 12px;
+}
+
+.button {
+    font-size: 100%;
+}
+
+.min {
+	min-width: 100%;
+}
+ .nerf {
+ 	min-height: 200px;
+ 	max-height: 200px;
+ 	margin-bottom: 2em;
+ }
+
+ .change:hover {
+ 	background-color: #8C8585;
+ 	color: white;
+ }
+
+ [class*="column"] + [class*="column"]:last-child {
+ 	float: left;
+ }
+
+ .border {
+ 	border: 1px solid black;
+ }
+
+ .case {
+ 	max-width: calc(100% / 6);
+ 	min-width: calc(100% / 6);
+
+ 	max-height: calc(100% / 6);
+ 	min-height: calc(100% / 6);
+ }
+
+.no-padding {
+	padding : 0em;
+}
+
+.progress {
+	margin-bottom: 0%;
+}
+
+.margin2PourcentTop {
+	margin-top : 2%;
+}
+
+.margin20Pourcent {
+	margin-bottom : 20%;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.border-transparent {
+ 	border: 1px solid transparent;
+ }
+
+.marginLeft {
+ 	margin-left: 0.2%;
+ }
+
+.width1Pourcent {
+ 	width : 1%;
+ }
+
+.no-padding-right {
+ 	padding-right: 0%;
+ }
+
+ .heightTier {
+ 	height: calc(94%/3) !important;
+ }
+
+ .lowOpacity {
+ 	opacity: 0.5;
+ }
+
+ .max {
+ 	max-width: 100% !important;
+ }
+
+ .separation {
+ 	border-right: 1px solid white;
+ }
