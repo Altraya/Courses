@@ -4,6 +4,9 @@
 *
 *	Author : Karakayn
 */
+
+require_once('IFlyable.php');
+
 class Dragon extends Kreatur implements IFlyable{
 	
 	private $_wingsColor;

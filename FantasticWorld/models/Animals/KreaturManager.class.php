@@ -7,6 +7,12 @@
 *	Author : Karakayn
 */
 require_once('Kreatur.class.php');
+require_once('Dragon.class.php');
+require_once('Licorne.class.php');
+require_once('Griffon.class.php');
+require_once('Basilic.class.php');
+require_once('Hydre.class.php');
+
 
 class KreaturManager{
 	
@@ -84,7 +90,7 @@ class KreaturManager{
 			$aKreatur['age'] = $donnees['age'];
 			$aKreatur['owner'] = $donnees['pseudo'];
 			$aKreatur['sex'] = $donnees['sex'];
-			$kreaturs[] = new Kreatur($aKreatur);
+			$kreaturs[] = new Dragon($aKreatur);
 		}
 		$req->closeCursor();
 		return $kreaturs;
@@ -122,7 +128,10 @@ class KreaturManager{
 			$aKreatur['age'] = $donnees['age'];
 			$aKreatur['owner'] = $donnees['pseudo'];
 			$aKreatur['sex'] = $donnees['sex'];
-			$kreaturs[] = new Kreatur($aKreatur);
+			if($aKreatur['species'] == "Dragon")
+				$kreaturs[] = new Dragon($aKreatur);
+			else
+				$kreaturs[] = new Hydre($aKreatur);
 		}
 		$req->closeCursor();
 		return $kreaturs;
